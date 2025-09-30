@@ -13,8 +13,9 @@ function App() {
         <div className="cards-container">
           {/* TODO: Import and render StudentCard components here */ }
           <h1>Student Info</h1>  
-          <StudentCard name="Bader" id="202256310" department="Mathmatics"/>
+          <StudentCard   id="202256310" department="Mathmatics" name="Bader" />
           <StudentCard name="Nassir" id="20035200" department="Physics"/>
+          
         </div>
       </main>
     </div>
